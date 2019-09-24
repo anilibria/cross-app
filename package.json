@@ -1,0 +1,27 @@
+{
+  "name": "anilibria-cross-app",
+  "version": "0.2.0",
+  "description": "AniLibria Cross-Platform Application",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilibria/cross-app.git"
+  },
+  "keywords": [
+    "AniLibria",
+    "Electron"
+  ],
+  "author": {
+    "name": "Turar Abu",
+    "email": "mail@turarabu.me",
+    "url": "https://turarabu.me/"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/anilibria/cross-app/issues"
+  },
+  "homepage": "https://github.com/anilibria/cross-app#readme",
+    "devDependencies": {
+    "electron": "^6.0.10"
+  }
+}
