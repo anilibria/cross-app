@@ -3,9 +3,14 @@
   "version": "0.2.0",
   "description": "AniLibria Cross-Platform Application",
   "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "serve": "vue-cli-service build --watch --mode=development",
+    "build": "vue-cli-service build"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anilibria/cross-app.git"
+    "url": "git+https://github.com/anilibria/electron.git"
   },
   "keywords": [
     "AniLibria",
@@ -18,10 +23,19 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/anilibria/cross-app/issues"
+    "url": "https://github.com/anilibria/electron/issues"
   },
-  "homepage": "https://github.com/anilibria/cross-app#readme",
-    "devDependencies": {
-    "electron": "^6.0.10"
+  "homepage": "https://github.com/anilibria/electron#readme",
+  "devDependencies": {
+    "@vue/cli-service": "^3.11.0",
+    "electron": "^6.0.10",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "raw-loader": "^3.1.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vue-template-compiler": "^2.6.10"
   }
 }
