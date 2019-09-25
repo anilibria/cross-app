@@ -1,0 +1,4 @@
+owner: anilibria
+repo: electron
+provider: github
+updaterCacheDirName: anilibria-cross-app-updater
