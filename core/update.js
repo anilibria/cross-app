@@ -50,10 +50,8 @@ async function start () {
 }
 
 function windowOpen () {
-    Window.open(wName, {
+    return Window.open(wName, {
         height: 320,
         width: 260
-    }).then(window => {
-        window.webContents.openDevTools()
     })
 }

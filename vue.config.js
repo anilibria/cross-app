@@ -1,6 +1,7 @@
 const path = require('path')
 
 const pages = {}
+const loads = ['update', 'main']
 const root = __dirname
 
 for (let page of loads)
